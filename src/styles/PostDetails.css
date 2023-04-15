@@ -1,0 +1,25 @@
+.postDetails {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 20px;
+  height: 200px;
+  width: 500px;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side h1 {
+  margin-bottom: 20px;
+}
+
+.right-side p {
+  text-align: left;
+}
